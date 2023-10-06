@@ -12,7 +12,7 @@ const DATA = [
         imgUrl: 'https://imgs.search.brave.com/Z7S9WQNYRS3AX9z4STFlEOde4WQ4e0YPFbBQjQXsseI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9nYW1l/aXNoYXJkLmdnL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIzLzA3/L21mcmFja19yZWFs/aXN0aWNfcGhvdG9f/b2ZfcGNfZ2FtaW5n/X2Rlc2tfMmMzZjQ2/ODQtYmE2My00ZDEz/LTgxMDMtY2NlOGIz/YWY3MThjLmpwZWc',
         postType: 'Stories',
         title: 'une Updates For Amazon Prime Gaming: Full List Of Amazing Free Games',
-        time: '8 min',
+        time: '9 min',
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?'
     },
     {
@@ -20,7 +20,7 @@ const DATA = [
         imgUrl: 'https://imgs.search.brave.com/ye906_PFlnKtKQkP0Mp1Y48bXvWCbpoAFHZea-nFANs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/Ym9sbHlpbnNpZGUu/Y29tL2FydGljbGVz/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9zaXRl/cy80LzIwMjIvMTIv/QC04MzEtNjk2eDM2/OS5qcGc',
         postType: 'Article',
         title: 'Corsair HS65 Surround Review: Comfort And Quality At A Budget',
-        time: '8 min',
+        time: '4 min',
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?'
     },
     {
@@ -28,7 +28,7 @@ const DATA = [
         imgUrl: 'https://imgs.search.brave.com/nPluBC8DR4O83X0rnGtzBKEZDzavlAiPHaNGkSSKvdw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdDIu/ZGVwb3NpdHBob3Rv/cy5jb20vMTE3Nzk3/My84MzA4L2kvNjAw/L2RlcG9zaXRwaG90/b3NfODMwODAzMDgt/c3RvY2stcGhvdG8t/Y29tcHV0ZXItcGVy/aXBoZXJhbHMtYW5k/LWxhcHRvcC1hY2Nl/c3Nvcmllcy5qcGc',
         postType: 'Video',
         title: 'Logitech G502 X Plus Review: A Very Close Second',
-        time: '8 min',
+        time: '6 min',
         description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?'
     },
     {

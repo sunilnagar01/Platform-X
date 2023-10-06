@@ -1,6 +1,6 @@
 import { StyleSheet, ImageBackground, View, Text, Image, Pressable } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import { useState } from "react";
+import HomePageCardFooter from './HomePageCardFooter';
 
 export default function HomePageCard({ item }) {
 
@@ -11,20 +11,7 @@ export default function HomePageCard({ item }) {
     const description = item.description;
 
     function onCardPressHandler() {
-        console.log('Card Pressed');
-        console.log(title);
-    }
-
-    const [bookmark, setBookmark] = useState('bookmark-outline');
-
-    function onBookmark() {
-        if (bookmark === 'bookmark-outline') {
-            console.log('Post Bookmarked:', title)
-            setBookmark('bookmark')
-        } else {
-            console.log('Post Removed From Bookmarks:', title)
-            setBookmark('bookmark-outline');
-        }
+        console.log('Card Pressed:', title);
     }
 
     return (
@@ -38,23 +25,15 @@ export default function HomePageCard({ item }) {
                             </View>
                             <View>
                                 {(postType === 'Video' || postType === 'Soundboard') &&
-                                    <Ionicons name='play-circle' color={'white'} size={56} />}
+                                    <Ionicons name='play-circle' color={'white'} size={56} />
+                                }
                                 <View style={styles.titleContainer}>
                                     <Text style={styles.titleText}>{title}</Text>
                                 </View>
                             </View>
                         </View>
                     </Pressable>
-                    {/* <View style={styles.footerContainer}>
-                        <View style={styles.timeContainer}>
-                            <Ionicons name='time-outline' color={'white'} size={18} />
-                            <Text style={styles.timeText}>{time}</Text>
-                        </View>
-                        <View style={styles.footerButtonContainer}>
-                            <Ionicons name='share-social-outline' color={'white'} size={20} />
-                            <Ionicons name={bookmark} color={'white'} size={20} style={styles.bookmarkButton} onPress={onBookmark} />
-                        </View>
-                    </View> */}
+                    <HomePageCardFooter time={time} title={title} />
                 </View>
             </ImageBackground>
         </View>
@@ -75,8 +54,8 @@ const styles = StyleSheet.create({
     cardOuterContainer: {
         flex: 1,
         backgroundColor: 'rgba(0, 0, 0, 0.35)',
-        padding: 15,
-        paddingTop: 30,
+        paddingHorizontal: 15,
+        paddingVertical: 27,
     },
     cardContainer: {
         flex: 1,
@@ -98,17 +77,15 @@ const styles = StyleSheet.create({
         fontFamily: "HCLTechRoobert-Regular",
         fontSize: 16,
     },
-    // playButtonIconContainer: {
-    //     borderRadius: 28,
-    //     width: 56,
-    //     height: 56,
-    //     backgroundColor: 'white',
-    //     alignItems: 'center',
-    //     justifyContent: 'center'
-    // },
+    playButtonIconContainer: {
+        borderRadius: 28,
+        width: 56,
+        height: 56,
+        backgroundColor: 'white',
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
     titleContainer: {
-        borderBottomColor: 'rgb(230, 225, 225)',
-        borderBottomWidth: 1,
         width: 300,
         paddingVertical: 15
     },
@@ -123,25 +100,5 @@ const styles = StyleSheet.create({
     cardPressed: {
         opacity: 0.80,
     },
-    // footerContainer: {
-    //     paddingVertical: 15,
-    //     flexDirection: 'row',
-    //     alignItems: 'center',
-    //     justifyContent: 'space-between'
-    // },
-    // timeContainer: {
-    //     flexDirection: 'row',
-    //     alignItems: 'center'
-    // },
-    // timeText: {
-    //     color: 'white',
-    //     marginLeft: 10,
-    //     fontSize: 12
-    // },
-    // footerButtonContainer: {
-    //     flexDirection: 'row',
-    // },
-    // bookmarkButton: {
-    //     marginLeft: 30
-    // }
+
 })
