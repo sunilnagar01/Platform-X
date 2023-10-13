@@ -5,7 +5,8 @@ const DATA = [
         postType: 'Tweet',
         title: 'How can technology accelerate corporate sustainability initiatives',
         time: '8 min',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?'
+        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?',
+        finish: 0
     },
     {
         key: 2,
@@ -13,7 +14,8 @@ const DATA = [
         postType: 'Stories',
         title: 'une Updates For Amazon Prime Gaming: Full List Of Amazing Free Games',
         time: '9 min',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?'
+        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?',
+        finish: 0
     },
     {
         key: 3,
@@ -21,7 +23,8 @@ const DATA = [
         postType: 'Article',
         title: 'Corsair HS65 Surround Review: Comfort And Quality At A Budget',
         time: '4 min',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?'
+        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?',
+        finish: 0
     },
     {
         key: 4,
@@ -29,7 +32,8 @@ const DATA = [
         postType: 'Video',
         title: 'Logitech G502 X Plus Review: A Very Close Second',
         time: '6 min',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?'
+        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?',
+        finish: 0
     },
     {
         key: 5,
@@ -37,7 +41,8 @@ const DATA = [
         postType: 'Infographic',
         title: 'BGMI In-Game Names: Cool Gamer Tags Suggested By ChatGPT And Google Bard',
         time: '8 min',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?'
+        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?',
+        finish: 0
     },
     {
         key: 6,
@@ -45,7 +50,8 @@ const DATA = [
         postType: 'Soundboard',
         title: "Marvel's Spider-Man 2: PS5 Exclusive Release Date And...",
         time: '8 min',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?'
+        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque maxime ipsam nam eaque magni minus quos explicabo est esse, aut dolores id ratione. Nulla deserunt deleniti debitis ad maiores magni cumque reiciendis natus doloribus recusandae?',
+        finish: 0
     },
 ]
 

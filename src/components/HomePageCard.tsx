@@ -1,8 +1,11 @@
-import { StyleSheet, ImageBackground, View, Text, Image, Pressable } from 'react-native';
+import { StyleSheet, ImageBackground, View, Text, Pressable } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import HomePageCardFooter from './HomePageCardFooter';
+import { useNavigation } from '@react-navigation/native';
 
 export default function HomePageCard({ item }) {
+
+    const navigation = useNavigation();
 
     const imgUrl = item.imgUrl;
     const postType = item.postType;
@@ -11,7 +14,7 @@ export default function HomePageCard({ item }) {
     const description = item.description;
 
     function onCardPressHandler() {
-        console.log('Card Pressed:', title);
+        navigation.navigate('details', { title: title, description: description, postType: postType });
     }
 
     return (

@@ -1,5 +1,5 @@
 import { FlatList, StyleSheet, View } from 'react-native'
-import HomePageCard from './HomePageCard'
+import HomePageCard from '../components/HomePageCard'
 import DATA from '../data/CardData'
 
 export default function HomePage() {
