@@ -64,7 +64,7 @@ export default function Details() {
                 }} />
                 <View style={styles.detailsBarIndicatorContainer}>
                     {content.map((item, index) => {
-                        return <DetailsBar current={current} content={content} index={index} progress={progress} />
+                        return <DetailsBar current={current} content={content} index={index} progress={progress} key={item.key} />
                     })}
                 </View>
                 <View style={styles.pressableContainer}>
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
         bottom: 20,
         left: 20,
-        backgroundColor: 'blue',
+        backgroundColor: 'rgba(0,0,0,0.8)',
         paddingHorizontal: 20,
         paddingVertical: 5,
         borderRadius: 20
