@@ -1,4 +1,4 @@
-import { StyleSheet, ImageBackground, View, Text, Pressable } from 'react-native';
+import { StyleSheet, ImageBackground, View, Text, Pressable, Image } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import HomePageCardFooter from './HomePageCardFooter';
 import { useNavigation } from '@react-navigation/native';
@@ -28,7 +28,7 @@ export default function HomePageCard({ item }) {
                             </View>
                             <View>
                                 {(postType === 'Video' || postType === 'Soundboard') &&
-                                    <Ionicons name='play-circle' color={'white'} size={56} />
+                                    <Image source={require('../assets/icons/play_video_button.png')} style={styles.playButton} />
                                 }
                                 <View style={styles.titleContainer}>
                                     <Text style={styles.titleText}>{title}</Text>
@@ -87,6 +87,10 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         alignItems: 'center',
         justifyContent: 'center'
+    },
+    playButton: {
+        width: 56,
+        height: 56,
     },
     titleContainer: {
         width: 300,
